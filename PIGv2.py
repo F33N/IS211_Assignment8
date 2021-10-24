@@ -7,12 +7,10 @@ import sys
 random.seed(0)
 
 
-# if the dice rolls one
 class ExceptionforOne(Exception):
     pass
 
 
-# dice class
 class Die:
 
     def __init__(self):
